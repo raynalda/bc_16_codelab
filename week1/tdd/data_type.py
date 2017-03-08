@@ -11,7 +11,7 @@ def data_type(n):
     elif n>100:
       return"more than 100"
     else: 
-      return"eqaul to 100"
+      return"equal to 100"
   elif type(n)==list:
     if len(n)>=3:
       return n[2]
