@@ -1,26 +1,12 @@
-def Data_type(n):
-  if n==('str'):
-  return len
- print ()def data_type(n):
-  if type (n)== str:
-     return len(n)
-  elif n is None:
-    return "no value"
-  elif type(n)==bool:
-    return n
-  elif type(n)== int:
-    if n<100:
-      return "less than 100"
-    elif n>100:
-      return"more than 100"
-    else: 
-      return"eqaul to 100"
-  elif type(n)==list:
-    if len(n)>=3:
-      return n[2]
+def fizz_buzz(n):
+    if n%3==0 and n%5==0:
+       return'FizzBuzz'
+    if n%3==0:
+       return 'Fizz'
+    elif n%5==0:
+       return 'Buzz'
     else:
-      return None
-      
+       return n
+  
    
-    
-     
+      
